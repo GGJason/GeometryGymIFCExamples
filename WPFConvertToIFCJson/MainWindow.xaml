@@ -1,0 +1,18 @@
+﻿<Window x:Class="WPFConvertToIFCJson.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPFConvertToIFCJson"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="147.666" Width="696.713">
+    <Grid>
+        <Button x:Name="fromButton" Content="Select IFC" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="10,10,0,0" Click="fromButton_Click"/>
+        <Button x:Name="toButton" Content="Save To ..." HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="10,34,0,0" Click="toButton_Click"/>
+        <Button x:Name="convertButton" Content="Convert" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="10,58,0,0" Click="convertButton_Click"/>
+        <Label x:Name="fromLabel" Content="&#xD;&#xA;" HorizontalAlignment="Left" VerticalAlignment="Top" RenderTransformOrigin="2.933,1.32" Margin="90,7,0,0" Width="589"/>
+        <Label x:Name="toLabel" Content="" HorizontalAlignment="Left" VerticalAlignment="Top" RenderTransformOrigin="2.933,1.32" Margin="90,31,0,0" Width="589"/>
+        <Label x:Name="statusLabel" Content="Please selection IFC File and write path then click convert.&#xD;&#xA;" HorizontalAlignment="Left" VerticalAlignment="Top" RenderTransformOrigin="2.933,1.32" Margin="90,56,0,0" Width="589"/>
+
+    </Grid>
+</Window>

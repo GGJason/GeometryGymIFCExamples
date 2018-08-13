@@ -188,3 +188,5 @@ FakesAssemblies/
 
 # Rhino
 *.rui_bak
+/.vs/GeometryGymIFC Examples/v15/sqlite3/db.lock
+/.vs/GeometryGymIFC Examples/v15/Server/sqlite3/db.lock
